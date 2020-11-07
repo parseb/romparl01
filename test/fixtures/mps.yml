@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  party: MyString
+  type: 
+  yborn: MyString
+  county: MyString
+  html: MyText
+
+two:
+  name: MyString
+  party: MyString
+  type: 
+  yborn: MyString
+  county: MyString
+  html: MyText

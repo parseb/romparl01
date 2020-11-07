@@ -1,0 +1,5 @@
+class Speech < ApplicationRecord
+
+    
+
+end
