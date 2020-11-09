@@ -1,27 +1,21 @@
-# README
+romparl02
+Romanian parliament transcripts database (1996-2020 oct.) with full seed and Rails DB explorer
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+todo -> Validate/Improve Data -> Build Frontend
 
-Things you may want to cover:
+PURPOSE
 
-* Ruby version  - 2.5.1p57  Rails: 5.2.4.4
+The aim here is to make this dataset more accessbile. This app will lower the entry barrier of working with this dataset by allowing users to extract data chunks of interest that can afterwords be explored and sutdied in more readlily avialable and familiar tools. (I'm thinking mainly Excel/LibreCalc or student GUI statistical software.)
 
-Romparl initial poc afterseed. -> upto 01.11.2020
- 
+WORK IN PROGRESS
 
-* System dependencies
+This application contains all Romanian Parliament Transcirpts from 1996 to October 2020 with aditional fileds such as date, party, county where speaker elected, year when speaker born, etc. However, the records are not sufficiently accurate. Feel free to explore and ideally identify and fix sistemic scraping flaws. If you want a more homogenous dataset see: https://zenodo.org/record/3332908
 
-* Configuration
+HOW TO
 
-* Database creation
+Clone repository (or download)
+Install or make sure you have rails 5.2+ and ruby 2.5+ installed
+open terminal in directory and run
+bundle install rails db:migrate rails db:seed (might take a while... over 5 minutes less than 1 hour ... I guess) rail s
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+navigate to localhost:3000/rails/db
