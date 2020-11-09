@@ -20,7 +20,7 @@ Install or make sure you have rails 5.2+ and ruby 2.5+ installed
 open terminal in directory and run
 
 bundle install 
-rails db:migrate 
+rails db:migrate --seed files too large - ADD LINK  
 rails db:seed (might take a while... over 5 minutes less than 1 hour ... I guess) 
 rail s
 
