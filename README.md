@@ -14,8 +14,14 @@ This application contains all Romanian Parliament Transcirpts from 1996 to Octob
 HOW TO
 
 Clone repository (or download)
+
 Install or make sure you have rails 5.2+ and ruby 2.5+ installed
+
 open terminal in directory and run
-bundle install rails db:migrate rails db:seed (might take a while... over 5 minutes less than 1 hour ... I guess) rail s
+
+bundle install 
+rails db:migrate 
+rails db:seed (might take a while... over 5 minutes less than 1 hour ... I guess) 
+rail s
 
 navigate to localhost:3000/rails/db
