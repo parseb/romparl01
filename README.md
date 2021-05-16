@@ -25,3 +25,7 @@ rails db:seed (might take a while... over 5 minutes less than 1 hour ... I guess
 rail s
 
 navigate to localhost:3000/rails/db
+
+
+#####
+Changed Visibility to Public 16.05.2021
